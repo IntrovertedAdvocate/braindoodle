@@ -36,3 +36,17 @@ footer{padding:45px 0;background:#17151b;color:#f6f3f7}.footer-wrap{display:grid
 .about{background:linear-gradient(180deg,#f5f0f7,#f1f5ef)}
 .newsletter-box{background:linear-gradient(135deg,#e8dced,#e4ebe1)}
 footer .logo span{color:#b6c7ae}
+.hero-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 180px 180px 24px 24px;
+  display: block;
+}
+.about-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
